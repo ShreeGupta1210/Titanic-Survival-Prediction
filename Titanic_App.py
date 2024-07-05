@@ -4,7 +4,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-model = pickle.load(open(r"titanic.pkl", 'rb'))     ## Load pickeled ml model
+model = pickle.load(open("titanic.pkl", 'rb'))     ## Load pickeled ml model
 
 ## Main Function
 def main():
